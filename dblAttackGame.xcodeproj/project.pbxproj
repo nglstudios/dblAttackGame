@@ -14,6 +14,11 @@
 		C328CCC81C9DB6CB00B5068D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C328CCC61C9DB6CB00B5068D /* LaunchScreen.storyboard */; };
 		C328CCD31C9DB6CB00B5068D /* dblAttackGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328CCD21C9DB6CB00B5068D /* dblAttackGameTests.swift */; };
 		C328CCDE1C9DB6CB00B5068D /* dblAttackGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328CCDD1C9DB6CB00B5068D /* dblAttackGameUITests.swift */; };
+		C328CCEC1C9DB6F500B5068D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328CCEB1C9DB6F500B5068D /* Character.swift */; };
+		C328CCEE1C9DB8F100B5068D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328CCED1C9DB8F100B5068D /* Player.swift */; };
+		C328CCF01C9DB9CA00B5068D /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328CCEF1C9DB9CA00B5068D /* Enemy.swift */; };
+		C328CCF21C9DC59E00B5068D /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328CCF11C9DC59E00B5068D /* GameState.swift */; };
+		C328CCF41C9DD3FC00B5068D /* Loot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328CCF31C9DD3FC00B5068D /* Loot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		C328CCD91C9DB6CB00B5068D /* dblAttackGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dblAttackGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C328CCDD1C9DB6CB00B5068D /* dblAttackGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dblAttackGameUITests.swift; sourceTree = "<group>"; };
 		C328CCDF1C9DB6CB00B5068D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C328CCEB1C9DB6F500B5068D /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = ../Character.swift; sourceTree = "<group>"; };
+		C328CCED1C9DB8F100B5068D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../Player.swift; sourceTree = "<group>"; };
+		C328CCEF1C9DB9CA00B5068D /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enemy.swift; path = ../Enemy.swift; sourceTree = "<group>"; };
+		C328CCF11C9DC59E00B5068D /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		C328CCF31C9DD3FC00B5068D /* Loot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		C328CCBC1C9DB6CB00B5068D /* dblAttackGame */ = {
 			isa = PBXGroup;
 			children = (
+				C328CCEF1C9DB9CA00B5068D /* Enemy.swift */,
+				C328CCED1C9DB8F100B5068D /* Player.swift */,
+				C328CCEB1C9DB6F500B5068D /* Character.swift */,
 				C328CCBD1C9DB6CB00B5068D /* AppDelegate.swift */,
 				C328CCBF1C9DB6CB00B5068D /* ViewController.swift */,
 				C328CCC11C9DB6CB00B5068D /* Main.storyboard */,
 				C328CCC41C9DB6CB00B5068D /* Assets.xcassets */,
 				C328CCC61C9DB6CB00B5068D /* LaunchScreen.storyboard */,
 				C328CCC91C9DB6CB00B5068D /* Info.plist */,
+				C328CCF11C9DC59E00B5068D /* GameState.swift */,
+				C328CCF31C9DD3FC00B5068D /* Loot.swift */,
 			);
 			path = dblAttackGame;
 			sourceTree = "<group>";
@@ -256,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C328CCEE1C9DB8F100B5068D /* Player.swift in Sources */,
+				C328CCF01C9DB9CA00B5068D /* Enemy.swift in Sources */,
+				C328CCEC1C9DB6F500B5068D /* Character.swift in Sources */,
+				C328CCF21C9DC59E00B5068D /* GameState.swift in Sources */,
+				C328CCF41C9DD3FC00B5068D /* Loot.swift in Sources */,
 				C328CCC01C9DB6CB00B5068D /* ViewController.swift in Sources */,
 				C328CCBE1C9DB6CB00B5068D /* AppDelegate.swift in Sources */,
 			);
