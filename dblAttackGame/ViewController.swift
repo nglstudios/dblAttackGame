@@ -57,6 +57,7 @@ class ViewController: UIViewController {
     
     @IBAction func earthBtn(sender: AnyObject) {
         
+        centerLbl.text = "BAD"
        
     }
     
